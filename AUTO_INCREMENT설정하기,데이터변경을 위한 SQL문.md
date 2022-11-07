@@ -12,7 +12,7 @@
     테이블이름을 따로 지정하지않아도 바로 해줘도 된는거같다.
  
  ***
- 
+ <br><br>
 * ## 조건부 데이터 입력 , 변경
 INSERT , UPDATE <br>
 
@@ -22,7 +22,7 @@ INSERT , UPDATE <br>
 ### - INSERT INTO 테이블 VALUES(값1,값2,값3) ON DUPLICATE KEY UPDATE 열2=값2 , 열3=값3; <br>
     만약 INSERT할려는 데이터의 PK가 다른행과 겹처있다면 그 행의 데이터를 UPDATE할 수 있다. 즉 없으면 넣고 , 있으면 바꾼다.
 ***
-
+<br><br>
 * ## INSERT 데이터 삽입
 INSERT문 기본 <br>
 
@@ -39,7 +39,7 @@ INSERT문 기본 <br>
     테이블이 만들어지면서 SELECT문에서 나온 데이터들이 INSERT된다.
 ***
 
-
+<br><br>
 * ## UPDATE 데이터 수정
 UPDATE문 기본 : UPDATE에서 WHERE절을 생략하면 테이블 전체의 행이변경됨<br>
 
@@ -49,7 +49,7 @@ UPDATE문 기본 : UPDATE에서 WHERE절을 생략하면 테이블 전체의 행
     WHERE절이 없다면 모든테이블의 열1은 값1로 바뀌게된다. 가끔은 전체테이블의 내용을 변경할때가 있다면 사용해야한다. ex)모든제품단가인상15%
  
 ***
-
+<br><br>
 * ## DELETE FROM 데이터 삭제
 DELETE문 기본 : UPDATE와 거의 비슷한 개념이다. 행 단위로 삭제한다. WHERE을 쓰는게 일반적임<br>
 
