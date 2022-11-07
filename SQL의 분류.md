@@ -14,5 +14,6 @@
   
 ***
 
-* ## DCL데이터 제어어(Data Control Language:데이터 제어 언어)은 사용자에게 어떤 권한을 부여하거나 빼앗을 때 주로 사용하는 구문으로, GRANT/REVOKE/DENY등이 이에 해당된다.
+* ## DCL
+  DCL데이터 제어어(Data Control Language:데이터 제어 언어)은 사용자에게 어떤 권한을 부여하거나 빼앗을 때 주로 사용하는 구문으로, GRANT/REVOKE/DENY등이 이에 해당된다.
 ***
